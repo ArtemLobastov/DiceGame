@@ -131,7 +131,6 @@ main {
   margin-right: 0.7rem;
 }
 .btn-container {
-  border: 1px solid greenyellow;
   justify-self: center;
   align-self: center;
   width: 20rem;
@@ -229,7 +228,7 @@ main {
     display: flex;
   }
   .player {
-    padding: 8rem 1rem;
+    padding: 8rem 1rem 3rem 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
