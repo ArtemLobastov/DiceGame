@@ -103,9 +103,9 @@ main {
 
 .btn {
   position: absolute;
-  left: 50%;
-
-  transform: translateX(-50%);
+  /* left: 50%;
+  transform: translateX(-50%); */
+  width: 100%;
   color: #444;
   background: none;
   border: none;
@@ -130,7 +130,16 @@ main {
   display: inline-block;
   margin-right: 0.7rem;
 }
-
+.btn-container {
+  border: 1px solid greenyellow;
+  justify-self: center;
+  align-self: center;
+  width: 20rem;
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  height: 100%;
+}
 .btn--rules {
   top: 5rem;
 }
@@ -145,7 +154,7 @@ main {
 }
 
 .btn:active {
-  transform: translate(-50%, 3px);
+  transform: translateY(3px);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
 }
 
@@ -227,19 +236,19 @@ main {
     transition: all 0.75s;
   }
   .dice {
-    top: 30rem;
+    top: 20%;
   }
   .btn--rules {
     top: 2rem;
   }
   .btn--new {
-    top: 50rem;
+    top: 45%;
   }
   .btn--roll {
-    top: 60rem;
+    top: 55%;
   }
   .btn--hold {
-    top: 70rem;
+    top: 65%;
   }
   .name {
     font-size: 4rem;
@@ -249,7 +258,7 @@ main {
     font-size: 7rem;
     font-weight: 300;
     color: #c7365f;
-    margin-top: 10rem;
+    margin-top: 20%;
     margin-bottom: auto;
   }
 }
